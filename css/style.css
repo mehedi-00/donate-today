@@ -221,3 +221,17 @@ input::placeholder{
     padding: 10px 30px;
     margin-left: -4px;
 }
+/* footer styles */
+footer{
+    background-color: #000;
+    padding: 80px 0;
+    margin-top: 100px;
+}
+footer h2{
+    color: #e45353;
+    font-size: 30px;
+}
+footer p{
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.349);
+}

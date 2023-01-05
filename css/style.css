@@ -17,6 +17,9 @@ a {
 .justify-center {
   justify-content: center;
 }
+.justify-evently{
+    justify-content: space-evenly;
+}
 .alignitems-center {
   align-items: center;
 }
@@ -97,7 +100,7 @@ section{
     padding:40px 0;
     background-color: rgba(223, 136, 136, 0.1);
 }
-.donate-today .row:last-child{
+.donate-today .gap{
     gap: 20px;
 }
 .donate-ammount p{
@@ -118,4 +121,36 @@ section{
     font-size: 18px;
     font-weight: 700;
     
+}
+/* donate plane styles */
+
+.plane-list{
+    width: 30%;
+    margin-top: 30px;
+    padding: 30px 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.plane-bg-1{
+    background-color:rgba(196, 177, 177, 0.2);
+}
+.plane-bg-2{
+    background-color:rgba(196, 177, 177, 0.5);
+}
+.plane-bg-3{
+    background-color:rgba(202, 233, 129, 0.5);
+}
+.plane-list h3{
+    font-size: 25px;
+    font-weight: 700;
+    margin: 25px 0;
+    color: #000000f5;
+}
+.plane-list p{
+    font-size: 14px;
+    line-height: 30px;
+    color: #0000005e;
 }
